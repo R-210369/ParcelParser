@@ -18,6 +18,14 @@ void ParcelParser::print_info() {
     {
         printa->print<loading_salmon>(E_("---New Package Obj---\n"));
         printa->print<loading_violet>(E_("Loaded Information by Volume\n"));
+
+        if(this->category == _small) 
+            printa->print<ok>(E_("Package Category: S\n"), this->category);
+        if (this->category == _medium)
+            printa->print<ok>(E_("Package Category: M\n"), this->category);
+        if (this->category == _large)
+            printa->print<ok>(E_("Package Category: L\n"), this->category);
+
         printa->print<ok>(E_("Package Width:\t{} dm\n"), this->width);
         printa->print<ok>(E_("Package Lenght:\t{} dm\n"), this->lenght);
         printa->print<ok>(E_("Package Height:\t{} dm\n"), this->height);
@@ -29,6 +37,14 @@ void ParcelParser::print_info() {
     {
         printa->print<loading_salmon>(E_("---New Package Obj---\n"));
         printa->print<loading_violet>(E_("Loaded Information by SUM\n"));
+
+        if (this->category == _small)
+            printa->print<ok>(E_("Package Category: S\n"), this->category);
+        if (this->category == _medium)
+            printa->print<ok>(E_("Package Category: M\n"), this->category);
+        if (this->category == _large)
+            printa->print<ok>(E_("Package Category: L\n"), this->category);
+
         printa->print<ok>(E_("Package Width:\t{} cm\n"), this->width);
         printa->print<ok>(E_("Package Height:\t{} cm\n"), this->height);
         printa->print<ok>(E_("Package Price:\t{} Euro\n"), this->price);
