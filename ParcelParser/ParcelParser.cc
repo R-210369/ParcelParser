@@ -104,6 +104,10 @@ void ParcelParser::categorize_by_volume(double a, double b, double c)
         this->category = _medium;
         this->price = 6.00;
     }
+    if (d < 1.0) {
+        this->category = _oversize;
+        this->price = -1;
+    }
     if (d > 300.0 && d <= 800.0) {
         this->category = _large;
         this->price = 9.00;
