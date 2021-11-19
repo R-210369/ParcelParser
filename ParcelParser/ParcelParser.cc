@@ -8,7 +8,7 @@ ParcelParser::ParcelParser(double x, double y)
 }
 ParcelParser::ParcelParser(double a, double b, double c)
 {
-    this->categority_by_volume(a, b, c);
+    this->categorize_by_volume(a, b, c);
 }
 
 void ParcelParser::print_info() {
