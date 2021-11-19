@@ -11,13 +11,13 @@ auto main(int argc, char** argv) -> int
 	printa->project<30>(E_("ParcelParser"));
 	SetConsoleTitleA(E("ParcelParser by 210369"));
 
-	printa->print<loading>(E_("Package Width: "));
+	printa->print<loading>(E_("Package Width in cm: "));
 	std::cin >> width;
 
-	printa->print<loading>(E_("Package Lenght: "));
+	printa->print<loading>(E_("Package Lenght in cm: "));
 	std::cin >> lenght;
 
-	printa->print<loading>(E_("Package Height: "));
+	printa->print<loading>(E_("Package Height in cm: "));
 	std::cin >> height;
 
 	printf(E("\n"));
