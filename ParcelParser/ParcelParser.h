@@ -1,6 +1,6 @@
 #ifndef PARCEL_PARSER_H_
 #define PARCEL_PARSER_H_
-enum : int // Global enum
+enum : int  
 {
 	_small	= 0,
 	_medium	= 1,
@@ -28,14 +28,14 @@ public:
 	double height = -1;
 	double volume = -1;
 
-	ParcelParser(double x, double y); // Constructor für Übung 7
-	ParcelParser(double a, double b, double c); // Constructor für Übung 8
+	ParcelParser(double x, double y); // Constructor fÃ¼r Ãœbung 7
+	ParcelParser(double a, double b, double c); // Constructor fÃ¼r Ãœbung 8
 	~ParcelParser() = default;
 
 	void print_info();
 
 private:
 	void categorize_normal(double x, double y);
-	void categority_by_volume(double a, double b, double c);
+	void categorize_by_volume(double a, double b, double c);
 };
 #endif // !PARCEL_PARSER_H_
