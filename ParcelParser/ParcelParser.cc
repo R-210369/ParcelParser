@@ -12,7 +12,10 @@ ParcelParser::ParcelParser(double a, double b, double c)
 }
 
 void ParcelParser::print_info() {
-    if (this->category == _unknown || this->category == _oversize) return;
+    if (this->category == _unknown || this->category == _oversize) {
+        printa->print<fail>("Package Oversized\ns");
+        return;
+    }
 
     if (this->ex_type == ex_8)
     {
