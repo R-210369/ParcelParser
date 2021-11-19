@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\printa">
+      <UniqueIdentifier>{8535eb45-6c58-40cd-a71b-2ee6792b2bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\printa">
+      <UniqueIdentifier>{61a105a0-4c6c-475e-8c6d-28a1c644be03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\security">
+      <UniqueIdentifier>{6e12545d-fe51-4666-a456-c6a2eef359dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParcelParser">
+      <UniqueIdentifier>{ba3320fc-ee48-4ce2-bdbd-4eb480cb22de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ParcelParser">
+      <UniqueIdentifier>{80c7ae65-273c-48d8-a838-a63642836ac4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Printa\fmt\chrono.h">
+      <Filter>Header Files\printa</Filter>
+    </ClInclude>
+    <ClInclude Include="Printa\fmt\color.h">
+      <Filter>Header Files\printa</Filter>
+    </ClInclude>
+    <ClInclude Include="Printa\fmt\compile.h">
+      <Filter>Header Files\printa</Filter>
+    </ClInclude>
+    <ClInclude Include="Printa\fmt\core.h">
+      <Filter>Header Files\printa</Filter>
+    </ClInclude>
+    <ClInclude Include="Printa\fmt\format.h">
+      <Filter>Header Files\printa</Filter>
+    </ClInclude>
+    <ClInclude Include="Printa\fmt\format-inl.h">
+      <Filter>Header Files\printa</Filter>
+    </ClInclude>
+    <ClInclude Include="Printa\fmt\locale.h">
+      <Filter>Header Files\printa</Filter>
+    </ClInclude>
+    <ClInclude Include="Printa\macros.hpp">
+      <Filter>Header Files\printa</Filter>
+    </ClInclude>
+    <ClInclude Include="Printa\fmt\os.h">
+      <Filter>Header Files\printa</Filter>
+    </ClInclude>
+    <ClInclude Include="Printa\fmt\ostream.h">
+      <Filter>Header Files\printa</Filter>
+    </ClInclude>
+    <ClInclude Include="Printa\fmt\posix.h">
+      <Filter>Header Files\printa</Filter>
+    </ClInclude>
+    <ClInclude Include="Printa\printa.hpp">
+      <Filter>Header Files\printa</Filter>
+    </ClInclude>
+    <ClInclude Include="Printa\fmt\printf.h">
+      <Filter>Header Files\printa</Filter>
+    </ClInclude>
+    <ClInclude Include="Printa\fmt\ranges.h">
+      <Filter>Header Files\printa</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt.hpp">
+      <Filter>Header Files\security</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParcelParser.h">
+      <Filter>Header Files\ParcelParser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Printa\fmt\os.cc">
+      <Filter>Resource Files\printa</Filter>
+    </ClCompile>
+    <ClCompile Include="Printa\fmt\format.cc">
+      <Filter>Resource Files\printa</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParcelParser.cc">
+      <Filter>Resource Files\ParcelParser</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
