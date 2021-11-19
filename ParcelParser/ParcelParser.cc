@@ -65,7 +65,7 @@ void ParcelParser::categorize_normal(double x, double y)
         this->price = -1;
     }
 }
-void ParcelParser::categority_by_volume(double a, double b, double c)
+void ParcelParser::categorize_by_volume(double a, double b, double c)
 {
     this->ex_type = ex_8;
 
