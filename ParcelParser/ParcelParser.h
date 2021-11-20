@@ -28,8 +28,8 @@ public:
 	double height = -1;
 	double volume = -1;
 
-	ParcelParser(double x, double y); // Constructor für Übung 7
-	ParcelParser(double a, double b, double c); // Constructor für Übung 8
+	ParcelParser(double x, double y); // Constructor Ü7
+	ParcelParser(double a, double b, double c); // Constructor Ü8
 	~ParcelParser() = default;
 
 	void print_info();
