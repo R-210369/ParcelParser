@@ -19,7 +19,7 @@ void ParcelParser::print_info() {
 
     if (this->ex_type == ex_8)
     {
-        printa->print<loading_salmon>(E_("---New Package Obj---\n"));
+        printa->print<loading_salmon>(E_("-----Package Obj-----\n"));
         printa->print<loading_violet>(E_("Loaded Information by Volume\n"));
 
         if(this->category == _small) 
@@ -39,7 +39,7 @@ void ParcelParser::print_info() {
     }
     if (this->ex_type == ex_7)
     {
-        printa->print<loading_salmon>(E_("---New Package Obj---\n"));
+        printa->print<loading_salmon>(E_("-----Package Obj-----\n"));
         printa->print<loading_violet>(E_("Loaded Information by SUM\n"));
 
         if (this->category == _small)
