@@ -1,6 +1,6 @@
 #ifndef PARCEL_PARSER_H_
 #define PARCEL_PARSER_H_
-enum : int  
+enum categories : int   
 {
 	_small	= 0,
 	_medium	= 1,
