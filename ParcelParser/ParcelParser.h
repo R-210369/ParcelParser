@@ -7,7 +7,7 @@ enum categories : int
 	_large	= 3,
 	_oversize = 4,
 	
-	_unknown	= 5
+	_unknown
 };
 enum excersize_type : int 
 {
