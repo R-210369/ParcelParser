@@ -9,7 +9,7 @@ enum categories : int
 	
 	_unknown
 };
-enum excersize_type : int 
+enum exercise_type : int
 {
 	ex_7	= 0,
 	ex_8	= 1,
