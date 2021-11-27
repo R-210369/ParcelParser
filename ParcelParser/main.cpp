@@ -41,14 +41,15 @@ auto main(int argc, char** argv) -> int
 */
 
 	if(lenght == 0)
-		parcel = new ParcelParser(width, height);
+		parcel = new ParcelParser(width, height); // Ü7
 	else
-		parcel = new ParcelParser(width, lenght, height);
+		parcel = new ParcelParser(width, lenght, height); // Ü8
 
 	parcel->print_info();
 
 	B:
 
+	printf(E("\n"));
 	printa->print<loading>(E_("Would you like to review another package?\n (Y/N): "));
 	std::cin >> _continue;
  
