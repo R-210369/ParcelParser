@@ -16,6 +16,6 @@
 #define LOG_POST() fmt::print( ") " );
 #endif  
 
-#define _return() std::getchar(); std::getchar();
+#define stay_open() std::getchar(); std::getchar();
 
  
