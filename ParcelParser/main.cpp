@@ -5,7 +5,7 @@
 #include <iostream>
 
 #define string_equals_yes(x) x == E_("Y") || x == E_("y") || x == E_("Yes") || x == E_("yes") || x == E_("YES")
-#define string_equals_no(x) x == E_("N") || x == E_("n") || x == E_("No") || x == E_("no") || x == E_("no")
+#define string_equals_no(x)  x == E_("N") || x == E_("n") || x == E_("No") || x == E_("no") || x == E_("no")
 
 double width, lenght, height;
 std::string _continue;
@@ -60,11 +60,13 @@ auto main(int argc, char** argv) -> int
 	}
 		 
 	if (string_equals_no(_continue)) {
+		system("CLS");
 		printa->print<ok>(E_("Thank you for using, ParcelParser by R-210369"));
 		for (int i = 0; i < 5; i++) {
 			Sleep(80);
 			std::cout << ".";
 		}
+		printf(E("\n\nBye"));
 		Sleep(3000);
 		exit(0);
 	}
